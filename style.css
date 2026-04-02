@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 110vh;
+    width: 100vw;
+    overflow-y: auto ;
+
+}
+.header{
+    background-color: black;
+    width: 100vw;
+    min-height:  20vh;
+    display: flex;
+    flex-direction: column;
+}
+.orange-bar{
+    background-color: orange;
+    height: 20px;
+    border-radius: 5px;
+    width: 65vw;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75%;
+}
+.mainContainer{
+    height: 75vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+.orange-bar1{
+    background-color: orange;
+    height: 20px;
+    border-radius: 5px;
+    width: 75vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: auto;
+    
+}
+.orange-bar2{
+    background-color: orange;
+    height: 20px;
+    border-radius: 5px;
+    width: 75vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-top: auto;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+
+}
+.logo-container{
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.ceaLogo{
+    height: 35vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.ceaLogo, h2{
+    animation: slideFromLeft 0.8s ease-out both;
+}
+h2{
+    animation-delay: 0.15s;
+}
+.divButtons{
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    gap: 40px;
+    margin-top: 15px;
+
+}
+.distButton{
+    background-color: black;
+    width: 20vw;
+    height: 15vh;
+    border-radius: 10px;
+    
+
+}
+
+.footer-logo{
+    height: 30px;
+}
+
+.cealogo1{
+    height: 80px;
+    margin-left: 5vw;
+}
+.modalBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    /*Color de fondo trasparente*/
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* soporte Safari */
+    /* Estas líneas lo convierten en modal flotante */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    /* Invisible por defecto */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease;
+}
+.marcContainer {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(238, 237, 237);
+    height: 90vh;
+    width: 70vw;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4vh;
+}
+.modalBackground.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.container-header{
+     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    width: 100%;
+}
+.container-orange-bar{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 100%;
+    line-height: 0%;
+    gap: 0;
+    margin-top: 1;
+
+}
+.orange-top-bar{
+    background-color: orange;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    bottom: 0; left: 0; right: 0;
+    height: 40%;
+    background: orange; 
+    clip-path: polygon(
+    0 100%,   /* esquina inf-izq */
+    5% 0,     /* punta del ángulo arriba */
+    100% 0,   /* esquina sup-der */
+    100% 100% /* esquina inf-der */);
+    margin-top: 2px;
+}
+.orange-butom-bar{
+    margin-top: auto;
+    background-color: orange;
+    height: 50%;
+    width: 100%;
+    border: none;
+    margin-top: -1px;
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    width:  69vw;
+    margin-top: 59vh;
+    height: 15%;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+}
+
+.marcContainer-back {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: 3vw;
+    margin-bottom: -40px; /* lo baja sobre la curva */
+    z-index: 2;
+}
+
+.curve-container {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.curve-container svg {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+
+.curve-container path {
+    fill: black;
+}
+.topexd{
+    width: 100%;
+    height: 20%;
+    margin-top: auto;
+
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    z-index: 1;
+}
+.button-subcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+.patButton{
+background-color: white;
+width: 20vw;
+height: 40vh;
+}
+.patButton2{
+    background-color: white;
+    width: 40vw;
+    height: 40vh;
+}
+.patbtn1{
+    background-image: url('img/balizas_de_señal.png');
+}
+.patbtn2{
+    background-image: url('img/torre_de_señal.png');
+}
+.patbtn3{
+    background-image: url('img/iluminacion_LED.png');
+}
+.patbtn4{
+    background-image: url('img/inalambrico.png');
+}
+.patbtn5{
+    background-image: url('img/IO_LINK.png');
+}
+.patbtn6{
+    background-image: url('img/alarma_acustica.png');
+    margin-right: auto;
+}
+.button{
+    background-size: cover;      /* o contain según quieras */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none;                /* ❌ quita borde */
+    outline: none;               /* ❌ quita outline */
+    padding: 0;     
+    transition: transform 0.3s ease;
+}
+.button:hover{
+    transform: translateY(-8px);
+}
+.dobot{
+    height: 70px;
+    margin-right: auto;
+    margin-left: 40px;
+}
+.dobbtn1{
+    background-image: url('img/CRAFT-SERIES.png');
+}
+.dobbtn2{
+    background-image: url('img/MG-400.png');
+}
+.dobbtn3{
+    background-image: url('img/M1-PRO-SCARA.png');
+}
+.dobbtn4{
+    background-image: url('img/CR-30H.png');
+}
+.dobbtn5{
+    background-image: url('img/dobot-aton.png');
+}
+.dobbtn6{
+    background-image: url('img/nova-series.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.optbtn1{
+    background-image: url('img/photoelectric-sensors.png');
+}
+.optbtn2{
+    background-image: url('img/displacement.png');
+}
+.optbtn3{
+    background-image: url('img/iiot.png');
+}
+.optbtn4{
+    background-image: url('img/vision_sensors.png');
+}
+.optbtn5{
+    background-image: url('img/LED_lighting.png');
+}
+.optbtn6{
+    background-image: url('img/non-contact-thermometers.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.finbtn1{
+    background-image: url('img/reles_industriales.png');
+    
+}
+.finbtn2{
+    background-image: url('img/aplicaciones_ferroviarias.png');
+}
+.finbtn3{
+    background-image: url('img/rele_circuito_impreso.png');
+}
+.finbtn4{
+    background-image: url('img/temporizadores.png');
+}
+.finbtn5{
+    background-image: url('img/contrladores_energia.png');
+}
+.finbtn6{
+    background-image: url('img/interfaces_indutriales.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.conbtn1{
+    background-image: url('img/sensores_inactivos.png');
+}
+.conbtn2{
+    background-image: url('img/sensores_fotoelectricos.png');
+}
+.conbtn3{
+    background-image: url('img/sensores_ultrasonicos.png');
+}
+.conbtn4{
+    background-image: url('img/sensores_fibra_optica.png');
+}
+.conbtn5{
+    background-image: url('img/sensores_rfid.png');
+}
+.conbtn6{
+    background-image: url('img/sensores_de_seguridad.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}  
+.pilzbtn1{
+    background-image: url('img/interruptor_de_seguridad.png');
+}
+.pilzbtn2{
+    background-image: url('img/barreras_foto_electricas.png');
+}
+.pilzbtn3{
+    background-image: url('img/interruptores_de_seguridad_con_bloqueo.png');
+}
+.pilzbtn4{
+    background-image: url('img/escaneres_lazer.png');
+}
+.pilzbtn6{
+    background-image: url('img/sistemasDeRadar.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.phoenix{
+    filter: invert(1);
+}
+.phobtn1{
+    background-image: url('img/medidores_de_energia.png');
+}
+.phobtn2{
+    background-image: url('img/sistema_de_ES_remoto.png');
+}
+.phobtn3{
+    background-image: url('img/reles_temporizados.png');
+}
+.phobtn4{
+    background-image: url('img/indicadores_de_procesos.png');
+}
+.phobtn5{
+    background-image: url('img/convertidores_de_medios.png');
+    
+}
+.phobtn6{
+    background-image: url('img/bloques_de_distribucion.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.parkerbtn1{
+    background-image: url('img/cilindros_y_accionadores.png');
+}
+.parkerbtn2{
+    background-image: url('img/tratamiento_de_aire.png');
+}
+.parkerbtn3{
+    background-image: url('img/valvulas.png');
+}
+.parkerbtn4{
+    background-image: url('img/sistemas_de_tomas.png');
+}
+.parkerbtn5{
+    background-image: url('img/refrigeracion_y_aire.png');
+}
+.parkerbtn6{
+    background-image: url('img/generadores_gas.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+}
+.moellerbtn1{
+    background-image: url('img/mando_señalizacion.png');
+}
+.moellerbtn2{
+    background-image: url('img/interruptores.png');
+    margin-right: auto;
+    margin-left: 5.5%;
+    margin-bottom: 5%;
+}
+.moellerbtn3{
+    background-image: url('img/proteccion_de_Motores.png') ;
+}
+.moellerbtn4{
+    background-image: url('img/serie_easy.png');
+    
+}
+@keyframes slideFromLeft{
+    from{
+    transform: translateX(-120px);
+    opacity: 0;
+    }
+    to{
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
+.div-player{
+     /* Estas líneas lo convierten en modal flotante */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    /* Invisible por defecto */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s ease;
+}
+.product-description{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
