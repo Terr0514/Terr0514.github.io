@@ -514,12 +514,16 @@ responsiva la pagina*/
     .marcContainer{
         width: 100%;
         height: 60%;
+        font-size: 1vh;
 
     }
     .dobot{
     height: 50px;
     }
-
+    .container-footer{
+    width: 100%;
+    margin-top: 30vh;
+    }
 }
 /*Tablets*/
 @media (max-width: 768px){
