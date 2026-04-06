@@ -78,7 +78,7 @@ body{
     color: white;
     align-items: center;
     font-family: 'Monserrat', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px 0;
 }
 .ceaLogo{
@@ -94,7 +94,7 @@ h2{
 }
 .divButtons{
     display: flex;
-    flex-direction: rows;
+    flex-direction: column;
     align-items: center;
     gap: 40px;
     margin-top: 15px;
@@ -102,10 +102,12 @@ h2{
 }
 .distButton{
     background-color: black;
-    width: 20vw;
-    height: 15vh;
+    width: 300px;
+    height: 125px;
     border-radius: 10px;
-    
+    background-size: cover;
+    background-repeat: none;
+    aspect-ratio: 16 / 9;
 
 }
 
@@ -491,4 +493,15 @@ height: 40vh;
     color:black;
     font-family: 'Courier New', Courier, monospace;
     
+}
+/*esta parte del codigo es para hacer 
+responsiva la pagina*/
+@media (min-width: 768px) {
+    .divButtons{
+        flex-direction: row;
+        
+    }
+    .logo-container{
+        font-size: 30px;
+    }
 }
