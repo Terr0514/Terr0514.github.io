@@ -503,13 +503,13 @@ responsiva la pagina*/
         
     }
     .logo-container{
-        font-size: 14px;
+        font-size: 12px;
     }
     .ceaLogo{
         height: 100px;
     }
     .orange-bar1{
-        height: 40px;
+        font-size: 4px;
     }
     
 }
