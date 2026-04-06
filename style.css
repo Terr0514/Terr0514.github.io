@@ -531,7 +531,10 @@ responsiva la pagina*/
     .patButton2{
         width: 200px;
         height: 100px;
-}
+    }
+    .iframe-container{
+        flex-direction: column;
+    }
 }
 /*Tablets*/
 @media (max-width: 768px){
