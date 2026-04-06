@@ -514,7 +514,7 @@ responsiva la pagina*/
     .marcContainer{
         width: 100%;
         height: 60%;
-        font-size: 2vh;
+        font-size: 1.5vh;
 
     }
     .dobot{
@@ -525,12 +525,12 @@ responsiva la pagina*/
     margin-top: 32vh;
     }
     .patButton{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         }
     .patButton2{
-        width: 200px;
-        height: 100px;
+        width: 400px;
+        height: 200px;
 }
 }
 /*Tablets*/
