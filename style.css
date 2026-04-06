@@ -522,15 +522,15 @@ responsiva la pagina*/
     }
     .container-footer{
     width: 100%;
-    margin-top: 33vh;
+    margin-top: 32vh;
     }
     .patButton{
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         }
     .patButton2{
-        width: 100px;
-        height: 50px;
+        width: 200px;
+        height: 100px;
 }
 }
 /*Tablets*/
