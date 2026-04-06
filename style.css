@@ -535,6 +535,10 @@ responsiva la pagina*/
     .iframe-container{
         flex-direction: column;
     }
+    .video-frame{
+        width: 250px;
+        height: 160px;
+    }
 }
 /*Tablets*/
 @media (max-width: 768px){
