@@ -499,7 +499,7 @@ responsiva la pagina*/
 /*Celulares*/
 @media (max-width: 480px) {
     .divButtons{
-        flex-direction: column;
+        flex-direction: row;
         
     }
     .logo-container{
