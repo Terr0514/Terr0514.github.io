@@ -511,10 +511,18 @@ responsiva la pagina*/
     .orange-bar1{
         height: 40px;
     }
-    
+    .marcContainer{
+        width: 100%;
+        height: 60%;
+
+    }
+    .dobot{
+    height: 50px;
+    }
+
 }
 /*Tablets*/
 @media (max-width: 768px){
-    
+
 }
 
