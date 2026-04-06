@@ -499,17 +499,17 @@ responsiva la pagina*/
 /*Celulares*/
 @media (max-width: 480px) {
     .divButtons{
-        flex-direction: row;
+        flex-direction: column;
         
     }
     .logo-container{
-        font-size: 10px;
+        font-size: 12px;
     }
     .ceaLogo{
         height: 100px;
     }
     .orange-bar1{
-        font-size: 2px;
+        height: 40px;
     }
     
 }
