@@ -5,10 +5,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    height: 110vh;
-    width: 100vw;
     overflow-y: auto ;
-
+    overflow-x: hidden;
+    height: 100%;
 }
 .header{
     background-color: black;
@@ -66,10 +65,10 @@ body{
     display: flex;
     flex-direction: row;
     background-color: black;
-    height: 10vh;
-    width: 100vw;
+    height: 20%;
+    width: auto;
     align-items: center;
-
+    margin-top: auto;
 }
 .logo-container{
 
@@ -161,7 +160,7 @@ h2{
     pointer-events: all;
 }
 .container-header{
-     background-color: black;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
