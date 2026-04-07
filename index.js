@@ -107,41 +107,41 @@ document.addEventListener('DOMContentLoaded', () => {
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Dobot-logo.png'
                     img.style.width = '200px'
-                    break;
+                    
                 case 'Optex FA':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Opex FA.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Finder':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Finder-logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Contrinex':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Contrinex-logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Pilz':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Pilz_logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Phoenix Contact':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Phoenix-logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Parker':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Parker-logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 case 'Moeller':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Moeller-logo.png'
-                    img.style.width = '200px'
+                    
                     break;
                 
             }

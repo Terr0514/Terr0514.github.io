@@ -512,19 +512,21 @@ height: 40vh;
 
 /* ── Contenedor del iframe + descripción ── */
 .iframe-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 16px;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ── iframe del video ── */
 .video-frame {
-  width: 560px;
-  height: 315px;
-  flex-shrink: 0;
-  border: none;
+    width: 560px;
+    height: 315px;
+    flex-shrink: 0;
+    border: none;
 }
 
 /* ── Div del texto de descripción ── */
