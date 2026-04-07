@@ -589,9 +589,7 @@ responsiva la pagina*/
         width: 250px;
         height: 160px;
     }
-    .modalBrand{
-        height: 100px;
-    }
+    
 }
 /*Tablets*/
 @media (max-width: 768px){
