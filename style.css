@@ -494,6 +494,55 @@ height: 40vh;
     font-family: 'Courier New', Courier, monospace;
     
 }
+.container-header-player {
+  background-color: black;
+}
+
+/* ── Botón cerrar ── */
+.productModalBack {
+  margin-bottom: auto;
+  margin-left: 67vw;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+
+
+/* ── Contenedor del iframe + descripción ── */
+.iframe-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+/* ── iframe del video ── */
+.video-frame {
+  width: 560px;
+  height: 315px;
+  flex-shrink: 0;
+  border: none;
+}
+
+/* ── Div del texto de descripción ── */
+.modal-description {
+    flex: 1;
+    height: 315px;
+    overflow-y: auto;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+/* ── Párrafo dentro de la descripción ── */
+.modal-description p {
+    white-space: normal;
+    word-break: break-word;
+}
+
 /*esta parte del codigo es para hacer 
 responsiva la pagina*/
 /*Celulares*/
