@@ -27,7 +27,7 @@ body{
     font-size: 75%;
 }
 .mainContainer{
-    height: 75vh;
+    height: auto;
     width: 100vw;
     background-color: white;
     display: flex;
@@ -165,7 +165,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 35%;
+    height: auto;
     width: 100%;
 }
 .container-orange-bar{
@@ -289,6 +289,7 @@ height: 40vh;
 .patbtn6{
     background-image: url('img/alarma_acustica.png');
     margin-right: auto;
+    margin-left: 5.5%;
 }
 .button{
     background-size: cover;      /* o contain según quieras */
@@ -593,6 +594,38 @@ responsiva la pagina*/
 }
 /*Tablets*/
 @media (max-width: 768px){
-
+    .distButton{
+        width: 180px;
+        height: 75px;
+    }
+    .logo-container{
+        font-size: 20px;
+    }
+    .ceaLogo{
+        height: 200px;
+    }
+    .dobot{
+    height: 50px;
+    }
+    .patButton{
+        width: 150px;
+        height: 150px;
+        }
+    .patButton2{
+        width: 300px;
+        height: 150px;
+    }
+    .container-footer{
+        margin-top: 66vh;
+        height: 10%;
+    }
+    .iframe-container{
+        flex-direction: column;
+    }
+    .video-frame{
+        width: 300px;
+        height: 200px;
+    }
+    
 }
 

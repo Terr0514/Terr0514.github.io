@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'Phoenix Contact':
                     img =  document.getElementById('productModal-brand')
                     img.src = 'img/Phoenix-logo.png'
-                    
+                    img.className += ' phoenix'
                     break;
                 case 'Parker':
                     img =  document.getElementById('productModal-brand')
