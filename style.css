@@ -77,7 +77,7 @@ body{
     color: white;
     align-items: center;
     font-family: 'Monserrat', sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
     padding: 10px 0;
 }
 .ceaLogo{
@@ -101,8 +101,8 @@ h2{
 }
 .distButton{
     background-color: black;
-    width: 300px;
-    height: 125px;
+    width: 25vw;
+    height: 10vw;
     border-radius: 10px;
     background-size: cover;
     background-repeat: none;
@@ -153,7 +153,7 @@ h2{
     font-family: 'Monserrat', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 4vh;
+    font-size: 4vw;
 }
 .modalBackground.active {
     opacity: 1;
@@ -205,7 +205,7 @@ h2{
     display: flex;
     flex-direction: column;
     width:  69vw;
-margin-top: 29.5%;
+    margin-top: 59vh;
     height: 15%;
     position: fixed;
     z-index: 2;
@@ -253,6 +253,7 @@ margin-top: 29.5%;
     white-space: nowrap;
     gap: 10px;
     z-index: 1;
+    font-size: 2vw;
 }
 .button-subcontainer{
     display: flex;
@@ -264,12 +265,12 @@ margin-top: 29.5%;
 .patButton{
 background-color: white;
 width: 20vw;
-height: 40vh;
+height: 20vw;
 }
 .patButton2{
     background-color: white;
     width: 40vw;
-    height: 40vh;
+    height: 20vw;
 }
 .patbtn1{
     background-image: url('img/balizas_de_señal.png');
@@ -462,7 +463,8 @@ height: 40vh;
 }
 .moellerbtn3{
     background-image: url('img/proteccion_de_Motores.png') ;
-}
+}￼
+
 .moellerbtn4{
     background-image: url('img/serie_easy.png');
     
@@ -501,7 +503,7 @@ height: 40vh;
 /* ── Botón cerrar ── */
 .productModalBack {
   margin-bottom: auto;
-  margin-left: 67vw;
+  margin-left: 65vw;
   padding: 10px;
   background-color: orange;
   border-radius: 20px;
@@ -524,8 +526,8 @@ height: 40vh;
 
 /* ── iframe del video ── */
 .video-frame {
-    width: 560px;
-    height: 315px;
+    width: 40vw;
+    height: 21.5vw;
     flex-shrink: 0;
     border: none;
 }
@@ -552,6 +554,10 @@ responsiva la pagina*/
     .divButtons{
         flex-direction: column;
         
+    }
+    .distButton{
+    width: 300px;
+    height: 125px;
     }
     .logo-container{
         font-size: 12px;
@@ -592,5 +598,3 @@ responsiva la pagina*/
     }
     
 }
-
-
